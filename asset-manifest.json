@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/overtime-control/static/css/main.e6c13ad2.css",
-    "main.js": "/overtime-control/static/js/main.20e0e306.js",
+    "main.js": "/overtime-control/static/js/main.ad374b80.js",
     "static/js/453.123cda57.chunk.js": "/overtime-control/static/js/453.123cda57.chunk.js",
     "index.html": "/overtime-control/index.html",
     "main.e6c13ad2.css.map": "/overtime-control/static/css/main.e6c13ad2.css.map",
-    "main.20e0e306.js.map": "/overtime-control/static/js/main.20e0e306.js.map",
+    "main.ad374b80.js.map": "/overtime-control/static/js/main.ad374b80.js.map",
     "453.123cda57.chunk.js.map": "/overtime-control/static/js/453.123cda57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.20e0e306.js"
+    "static/js/main.ad374b80.js"
   ]
 }
