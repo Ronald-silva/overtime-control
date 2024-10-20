@@ -1,0 +1,105 @@
+.container {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.filterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.dateInput {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.filterButton {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.totalHoras {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.registrosContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.registroItem {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.registroData, .registroHora, .registroTipo, .registroObra {
+  font-size: 14px;
+}
+
+.backButton {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto 0;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .filterContainer {
+    flex-direction: column;
+  }
+
+  .dateInput, .filterButton {
+    width: 100%;
+  }
+
+  .registroItem {
+    grid-template-columns: 1fr;
+  }
+}
